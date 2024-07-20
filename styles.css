@@ -1,0 +1,120 @@
+/* * {
+    outline: 2px solid red;
+} */
+
+:root {
+	--text: black;
+	--bg: #dfc9b8;
+	--special:
+		#ffdd00;
+	--sunshine:
+		#ffcc00;
+	--shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+	--border:
+		black;
+	--dash: 10px dashed #ffdd00;
+	--dash2: 10px dashed;
+	--red: #ff4014;
+	--blue: #0061e6;
+	--green: #00a339;
+	--pink: #ff9cbd;
+	--test: 0 0 10px rgba(58, 58, 58, 0.034);
+}
+
+header {
+    background-color: red;
+}
+div.pagetitle {
+    margin: 40px auto;
+    background-color: aqua;
+    padding: 40px 0;
+}
+
+
+h1 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* p {
+    background: green;
+} */
+
+.recipecard {
+    display: inline-block;
+}
+
+/* - RECIPE PAGES - */
+
+section {
+    text-align: center;
+}
+
+.container {
+    display:inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+img.recipeimage {
+    width:400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+.recipedescription {
+    text-align: right;
+    max-width: 200px;
+}
+
+/* - LANDING - */
+
+.join, .recipelink {
+	margin: .6rem;
+	font-style: italic;
+	text-align: center;
+	padding: .8em .9em 1.2em .8em;
+	font-size: 2.5rem;
+	line-height: .8;
+	letter-spacing: -0.06em;
+	color: var(--green);
+	border-radius: 50%;
+	border: 1px solid var(--green);
+	display: table;
+	transition: .5s;
+	transform: rotate(-20deg);
+}
+
+.join:hover , .recipelink:hover {
+	transform: rotate(5deg);
+	transition: .5s;
+}
+
+#menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+#menu a {
+	padding: .5em;
+	display: block;
+	font-size: 1.8rem;
+	border-radius: 4em 3em 5em / 2.5em 3em;
+	transition: .3s border-radius;
+	font-style: italic;
+	letter-spacing: -0.06em;
+}
+
+#menu a:hover {
+	box-shadow: 0 0 4vw 1.3vw var(--sunshine);
+	border-radius: 4em 4.5em 5em / 2.5em 3em;
+	transition: 1s;
+	background: var(--special);
+}
